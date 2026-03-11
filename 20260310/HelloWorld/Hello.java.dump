@@ -1,0 +1,18 @@
+//输出Hello World
+//编译后，每一个类就对应一个.class文件
+//一个源文件中最多只能有一个public类,其他类不限制
+//如果源文件有public类，则文件名必须按该类名命名
+//mian方法也可以写在非public类中，然后指定运行，这样入口方法就是非public的mian方法，例如Dog
+public class Hello {
+	public static void main (String[] arg) {
+		System.out.println("Hello World");
+	}
+}
+
+class Dog {
+	public static void main (String[] args) {
+		System.out.println("hello,Dog");
+	}
+}
+
+//

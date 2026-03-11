@@ -1,0 +1,19 @@
+// 演示转义字符的使用
+// \t: 一个制表位，实现对齐的功能
+// \n: 换行符
+// \\: 代表一个\
+// \": 代表一个"
+// \': 代表一个'
+// \r: 代表回车,返回到第一个字符的位置
+
+public class ChangeChar {
+	public static void main (String[] args) {
+		System.out.println("ChangeChar");
+	}
+}
+
+class ChangeText {
+	public static void main (String[] args) {
+		System.out.println("书名\t作者\t价格\t数量\n\r三国\t罗贯中\t150\t288");
+	}
+}
